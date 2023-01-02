@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "title": "Robotics",
+      "body": "Robotics is an interdisciplinary branch of computer science and engineering. Robotics involves design, construction, operation, and use of robots. The goal of robotics is to design machines that can help and assist humans. ",
+      "author": "A",
+      "strength": 7,
+      "id": 1,
+      "img": "https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaHx8fHx8fDE2NjE5MjM1NDk&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920"
+    },
+    {
+      "title": "Automation",
+      "body": "Automation describes a wide range of technologies that reduce human intervention in processes. Human intervention is reduced by predetermining decision criteria, subprocess relationships, and related actions.",
+      "author": "B",
+      "strength": 6,
+      "id": 2,
+      "img": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8YXV0b21hdGlvbnx8fHx8fDE2NjE5MjM2ODg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920"
+    },
+    {
+      "title": "Machine Learning",
+      "body": "Machine learning (ML) is a field of inquiry devoted to understanding and building methods that 'learn', that is, methods that leverage data to improve performance on some set of tasks. It is seen as a part of artificial intelligence.",
+      "author": "C",
+      "strength": 9,
+      "id": 3,
+      "img": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=1080&ixid=MnwxfDB8MXxyYW5kb218MHx8dGVjaHx8fHx8fDE2NjE5MjM4ODc&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1920"
+    }
+  ]
+}

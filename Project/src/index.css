@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  
+}
+/* Wishlist */
+.wishlist{
+  background: linear-gradient(to right, #3c1053, #ad5389) !important;
+
+}
+.wish-cont{
+  margin-top: 80px;
+  padding: 50px 12px;
+  border: none;
+  outline: none;
+}
+.wish-cont .card{
+  margin-left: 15px ;
+  box-shadow: 10px 10px 30px rgb(0, 0, 0);
+}
+
+
+.wish-btn .btnWish {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  font-size: 10px 12px;
+  letter-spacing: 2px;
+  margin-right: 18px;
+	position: relative;
+  background: linear-gradient(to right, #9d50bb, #6e48aa); 
+  transition: 0.3s ease-in-out;
+}
+.wish-btn .btnWish {
+  z-index: 1;
+}
+.wish-btn .btnWish::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.wish-btn .btnWish:hover {
+  color: #121212;
+}
+.wish-btn .btnWish:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+
+.card-text{
+  font-size: 20px;
+  color:white;
+}
+
+.wish-cont .card-title{
+color:white;
+}
+
+/* S-Project  */
+.project-preview {
+  padding: 10px 16px;
+  /* margin: 20px 0; */
+  margin-right: 100px;
+  border-bottom: 1px solid #fafafa;
+}
+
+
+.project-preview h2 {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.project-list {
+  /* margin-top:10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-preview p {
+  font-size: 25px;
+}
+
+.side-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.something{
+  margin-top: 100px;
+  padding: 30px 0px;
+  overflow-x: hidden;
+  background: linear-gradient(to right, #3c1053, #ad5389) !important;
+}
+
+.something .card{
+  margin: 0px 10px;
+
+}
+
+/* proj-btn */
+/* btnProj */
+
+
+
+
+.proj-btn .btnProj {
+  font-weight: 700;
+  margin: 5px ;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0px !important;
+  padding: 9px 12px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  /* margin-left: 18px; */
+	position: relative;
+	background: linear-gradient(to right, #9d50bb, #6e48aa); 
+	transition: 0.3s ease-in-out;
+}
+.proj-btn .btnProj{
+  z-index: 1;
+}
+.proj-btn .btnProj::before {
+  content: "";
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+}
+.proj-btn .btnProj:hover {
+  color: #121212 !important;
+}
+.proj-btn .btnProj:hover::before {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
